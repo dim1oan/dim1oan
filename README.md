@@ -1,53 +1,57 @@
-# 𝙃𝙚𝙡𝙡𝙤, 𝙄'𝙢 𝙙𝙞𝙢1𝙤𝙖𝙣
+# ⚡ CONSOLE // dim1oan_
 
-𝑰 ❤ 𝑩𝒂𝒄𝒌-𝒆𝒏𝒅 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒎𝒆𝒏𝒕!
-
-💻 𝑨 𝒃𝒂𝒄𝒌𝒆𝒏𝒅 𝒅𝒆𝒗 𝒆𝒏𝒕𝒉𝒖𝒔𝒊𝒂𝒔𝒕 𝒘𝒊𝒕𝒉 𝒂 𝒑𝒂𝒔𝒔𝒊𝒐𝒏 𝒇𝒐𝒓 𝑨𝒔𝒚𝒏𝒄𝒉𝒓𝒐𝒏𝒐𝒖𝒔 𝑷𝒚𝒕𝙝𝒐𝒏.
-
-🤖 𝘼𝙞𝙤𝙜𝙧𝙖𝙢 𝙗𝙤𝙩𝙨 | ⚡ 𝙁𝙖𝙨𝙩𝘼𝙋𝙄 𝙡𝙚𝙖𝙧𝙣𝙚𝙧 | 🐳 𝘿𝙤𝙘𝙠𝙚𝙧 𝙛𝙖𝙣 | 🐘 𝙋𝙤𝙨𝙩𝙜𝙧𝙚𝙎𝙌𝙇
-
-💡 𝑷𝒂𝒔𝒔𝒊𝒐𝒏𝒂𝒕𝒆 𝒂𝒃𝒐𝒖𝒕 𝒃𝒓𝒊𝒏𝒈𝒊𝒏げる 𝒊𝒅𝒆𝒂𝒔 𝒕𝒐 𝒍𝒊𝒇𝒆. 𝑬𝒙𝒑𝒍𝒐𝒓𝒆 𝒂𝒍𝒍 𝒐𝒇 𝒎𝒚 𝒑𝒓𝒐𝒋𝒆𝒄𝒕𝒔.
+```text
+⚙️ STATUS: Active Backend Developer
+🎓 LOCATION: MSTU "STANKIN" (Applied Informatics, 2029)
+💬 TELEGRAM: @dim1oan | ✉️ EMAIL: 13dima112007@gmail.com
+```
 
 ---
 
-## 𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝙮 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗼𝗻
+### 📡 Active Infrastructure (Мои Проекты)
 
-`vpn-bot` (Aiogram 3.x) • `vpn-web-cabinet` (FastAPI) • `3x-ui automation`
+Я разрабатываю децентрализованную экосистему для автоматизации и дистрибуции VPN-доступа. Код спроектирован под высокие нагрузки, полностью асинхронен и готов к продакшену.
 
----
+#### ⚙️ [vpn-bot](https://github.com) — Ядро и Фоновые задачи
+> Асинхронный Telegram-бот на aiogram 3.x для продажи VLESS+Reality доступа через API панели 3x-ui.
+* **Woker Engine:** Изолированный планировщик `APScheduler` на 7 параллельных фоновых задач (динамический подсчет трафика, автоблокировки, биллинг).
+* **Security:** Fernet-шифрование конфиденциальных данных в БД, вырезание секретов из JSON-логов (`structlog`).
+* **Stack:** `Python 3.11+` • `Aiogram 3.x` • `SQLAlchemy 2.0` • `PostgreSQL` • `Pytest` • `Docker`
 
-## 𝗠𝘆 𝗧𝗲𝗰𝗵 𝗦𝘁𝗮𝗰𝗸
-
-### ⚡ Languages & Frameworks
-`Python 3.11+` `Asyncio` `FastAPI` `Aiogram 3.x` `SQLAlchemy 2.0` `Alembic` `Pydantic v2`
-
-### 🗄️ Databases & Caching
-`PostgreSQL` `MySQL` `SQLite (WAL)` 
-
-### 🛠️ DevOps & Tools
-`Docker` `Docker Compose` `Linux (Bash/Terminal)` `Git` `GitHub` `Nginx` `Systemd` `SSH / SFTP`
-
-### 🧪 Testing & Linting
-`Pytest` `Ruff` `Mypy`
+#### 🌐 [vpn-web-cabinet](https://github.com) — Веб-интерфейс (Кабинет)
+> Высокопроизводительное веб-приложение на FastAPI, выступающее альтернативной точкой входа для клиентов без доступа к Telegram.
+* **Shared DB Architecture:** Работает с той же базой данных, что и бот, в режиме `SQLite WAL` (Write-Ahead Logging) с защитой от дедлоков (`busy_timeout=5000`).
+* **Web Security:** Авторизация через `bcrypt`, защита от межсайтовых запросов (`CSRF`) и строгий `Rate-Limiter` на уровне маршрутов.
+* **Stack:** `FastAPI` • `Jinja2` • `Bootstrap 5` • `Pydantic v2` • `HTTPX ASGI Tests`
 
 ---
 
-## 𝗦𝘁𝗮𝘁𝘀
+### 🧰 Core Core Tech Stack
+
+```💼 Языки:      Python (Asyncio / ООП), SQL
+🚀 Фреймворки:  FastAPI, Aiogram 3.x, SQLAlchemy, Pydantic, Alembic
+🗄️ Базы данных: PostgreSQL, MySQL, SQLite (WAL)
+🐳 Инфраструктура: Docker, Docker Compose, Nginx, Linux (Bash), Systemd, SFTP
+🧪 Качество кода: Pytest, Ruff, Mypy
+```
+
+---
+
+### 📊 GitHub Activity (Динамический График)
+
+Этот неоновый график генерируется автоматически на основе моих реальных коммитов в репозитории:
 
 <p align="left">
   <a href="https://github.com">
-    <img src="https://vercel.app" alt="dim1oan's Activity Graph" width="100%">
+    <img src="https://vercel.app" alt="dim1oan activity graph" width="100%">
   </a>
 </p>
 
-- 🌌 **Total Contributions:** Подробный график твоей активности вывелся чуть ниже на главной странице профиля!
-- 🏆 **Achievements unlocked:** Достижения (YOLO, Pull Shark и др.) автоматически отображаются в левой колонке твоего профиля.
-
-
 ---
 
-## 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗠𝗲
+### 🏆 Достижения и Статусы
+*Все открытые ачивки (YOLO, Pull Shark, Pair Extraordinaire) и плашки контрибьютора GitHub автоматически выводятся в **левой панели** моего профиля прямо под аватаркой!*
 
-- **Telegram**: [@dim1oan](https://t.me) 💬
-- **Email**: [13dima112007@gmail.com](mailto:13dima112007@gmail.com) ✉️
-- **Education**: MSTU "STANKIN" (Applied Informatics, Class of 2029) 🎓
+```text
+🚀 Готов к стажировкам и Junior-позициям (Удаленно / Гибрид / Москва)
+```
