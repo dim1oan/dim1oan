@@ -37,17 +37,6 @@
 
 ---
 
-### 📊 GitHub Activity (Динамический График)
-
-Этот неоновый график генерируется автоматически на основе моих реальных коммитов в репозитории:
-
-<p align="left">
-  <a href="https://github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dim1oan&theme=tokyonight&bg_color=0d1117&hide_border=true" alt="" width="100%">
-  </a>
-</p>
-
----
 
 ### 🏆 Достижения и Статусы
 *Все открытые ачивки (YOLO, Pull Shark, Pair Extraordinaire) и плашки контрибьютора GitHub автоматически выводятся в **левой панели** моего профиля прямо под аватаркой!*
