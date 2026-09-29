@@ -35,9 +35,14 @@
 ## 𝗦𝘁𝗮𝘁𝘀
 
 <p align="left">
-  <img src="https://vercel.app" alt="dim1oan's GitHub Stats" height="160">
-  <img src="https://vercel.app" alt="Top Languages" height="160">
+  <a href="https://github.com">
+    <img src="https://vercel.app" alt="dim1oan's Activity Graph" width="100%">
+  </a>
 </p>
+
+- 🌌 **Total Contributions:** Подробный график твоей активности вывелся чуть ниже на главной странице профиля!
+- 🏆 **Achievements unlocked:** Достижения (YOLO, Pull Shark и др.) автоматически отображаются в левой колонке твоего профиля.
+
 
 ---
 
