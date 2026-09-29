@@ -12,13 +12,13 @@
 
 Я разрабатываю децентрализованную экосистему для автоматизации и дистрибуции VPN-доступа. Код спроектирован под высокие нагрузки, полностью асинхронен и готов к продакшену.
 
-#### ⚙️ [vpn-bot](https://github.com) — Ядро и Фоновые задачи
+#### ⚙️ [vpn-bot](https://github.com/dim1oan/niro-vpn.xyz-TG) — Ядро и Фоновые задачи
 > Асинхронный Telegram-бот на aiogram 3.x для продажи VLESS+Reality доступа через API панели 3x-ui.
 * **Woker Engine:** Изолированный планировщик `APScheduler` на 7 параллельных фоновых задач (динамический подсчет трафика, автоблокировки, биллинг).
 * **Security:** Fernet-шифрование конфиденциальных данных в БД, вырезание секретов из JSON-логов (`structlog`).
 * **Stack:** `Python 3.11+` • `Aiogram 3.x` • `SQLAlchemy 2.0` • `PostgreSQL` • `Pytest` • `Docker`
 
-#### 🌐 [vpn-web-cabinet](https://github.com) — Веб-интерфейс (Кабинет)
+#### 🌐 [vpn-web-cabinet](https://github.com/dim1oan/niro-vpn.xyz-TG) — Веб-интерфейс (Кабинет)
 > Высокопроизводительное веб-приложение на FastAPI, выступающее альтернативной точкой входа для клиентов без доступа к Telegram.
 * **Shared DB Architecture:** Работает с той же базой данных, что и бот, в режиме `SQLite WAL` (Write-Ahead Logging) с защитой от дедлоков (`busy_timeout=5000`).
 * **Web Security:** Авторизация через `bcrypt`, защита от межсайтовых запросов (`CSRF`) и строгий `Rate-Limiter` на уровне маршрутов.
@@ -42,8 +42,8 @@
 Этот неоновый график генерируется автоматически на основе моих реальных коммитов в репозитории:
 
 <p align="left">
-  <a href="https://github.com">
-    <img src="https://vercel.app" alt="dim1oan activity graph" width="100%">
+  <a href="https://github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dim1oan&theme=tokyonight&bg_color=0d1117&hide_border=true" alt="" width="100%">
   </a>
 </p>
 
